@@ -1,0 +1,88 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  color: var(--text-color);
+  font-size: 2.5rem;
+}
+
+.logo .color1 {
+  color: var(--primary-color);
+}
+
+.navbar.transparent {
+  background-color: transparent;
+}
+
+.navbar.scrolled {
+  background-color: #f8f8f8;
+}
+
+.navbar.hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out;
+}
+.navLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navLinks a {
+  font-size: 15px;
+  color: var(--text-color);
+  text-decoration: none;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.navLinks a:hover {
+  color: var(--primary-color);
+}
+
+.loginButton {
+  padding: 0.5rem 1rem;
+}
+.loginButton a {
+  padding: 5px;
+}
+
+#textGradient a:hover {
+  color: var(--primary-color);
+  transition: all 200ms linear;
+}
+
+#textGradient .color1 {
+  color: var(--primary-color);
+  transition: all 200ms linear;
+}
+
+#textGradient:hover .color1 {
+  color: var(--text-color);
+  transition: all 200ms linear;
+}
+
+#textGradient .color2 {
+  color: var(--text-color);
+  transition: all 200ms linear;
+}
+
+#textGradient:hover .color2 {
+  color: var(--primary-color);
+  transition: all 200ms linear;
+}
